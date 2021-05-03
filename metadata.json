@@ -1,0 +1,11 @@
+{
+  "name": "Pub/Sub Lite Public Topic Template",
+  "description": "A custom Dataflow Flex template that publishes data from the public Pub/Sub topic `projects/pubsub-public-data/topics/taxirides-realtime` (input) to a Pub/Sub Lite topic (output)",
+  "parameters": [
+    {
+      "name": "pubsubLiteTopic",
+      "label": "Pub/Sub Lite topic",
+      "helpText": "A Pub/Sub Lite topic to publish to, e.g. projects/123456789/locations/us-central1-b/subscriptions/my-subscription."
+    }
+  ]
+}

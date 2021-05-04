@@ -30,4 +30,22 @@ The steps below describe how to create the template in your Google Cloud project
       --jar="target/pubsublite-public-topic-template-bundled-1.0-SNAPSHOT.jar" \
       --env FLEX_TEMPLATE_JAVA_MAIN_CLASS="LitePublicTopicTemplate"
     ```
+## How to run the template?
+
+Running the template requires you to have a *Pub/Sub lite topic* already created. 
+
+With that, you can create a job from template in [Cloud Console](https://pantheon.corp.google.com/dataflow/createjob).
+
+![img](img/Screen Shot 2021-05-03 at 5.22.38 PM.png)
+
+Alternatively, you can create a job using this gcloud command:
+
+```sh
+gcloud dataflow flex-template run "pubsublite-to-gcs-`date +%Y%m%d`" \
+   --template-file-gcs-location $TEMPLATE_PATH \
+   --parameters pubsubLiteTopic="projects/123456789/locations/us-west1-a/topics/my-topic" \
+   --region us-west1
+```
+
+
 

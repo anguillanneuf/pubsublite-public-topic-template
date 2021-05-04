@@ -32,7 +32,6 @@
   </repositories>
 
   <dependencies>
-
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-runners-core-java</artifactId>

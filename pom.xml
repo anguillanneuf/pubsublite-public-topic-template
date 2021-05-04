@@ -32,18 +32,6 @@
   </repositories>
 
   <dependencies>
-    <dependency>
-      <groupId>com.google.cloud</groupId>
-      <artifactId>pubsublite-beam-io</artifactId>
-      <version>${pubsublite.version}</version>
-    </dependency>
-
-    <!--    java.lang.NoSuchMethodError: 'com.google.common.cache.CacheBuilder com.google.common.cache.CacheBuilder.expireAfterWrite(java.time.Duration)'-->
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>30.1-jre</version>
-    </dependency>
 
     <dependency>
       <groupId>org.apache.beam</groupId>

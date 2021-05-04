@@ -36,7 +36,7 @@ Running the template requires you to have a *Pub/Sub lite topic* already created
 
 With that, you can create a job from template in [Cloud Console](https://pantheon.corp.google.com/dataflow/createjob).
 
-![img](img/Screen Shot 2021-05-03 at 5.22.38 PM.png)
+![img](img/Screen%20Shot%202021-05-03%20at%205.22.38%20PM.png)
 
 Alternatively, you can create a job using this gcloud command:
 

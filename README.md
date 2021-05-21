@@ -1,6 +1,6 @@
 # Pub/Sub Lite public topic template
 
-This repo contains code for ["Is there a public Pub/Sub Lite topic?"]() on Medium. 
+This repo contains code for ["Is there a public Pub/Sub Lite topic?"](https://medium.com/google-cloud/is-there-a-public-pub-sub-lite-topic-95a19ede4d6a) on Medium. 
 
 Specifically, it contains code that creates the public Dataflow template image `gcr.io/pubsub-public-data/pubsublite-public-topic-template:latest` that publishes messages from the Pub/Sub public topic `projects/pubsub-public-data/topics/taxirides-realtime` to your Pub/Sub Lite topic.
 
